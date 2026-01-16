@@ -1,0 +1,2129 @@
+[
+  {
+    "question": "Egy elektromos berendezés kiválasztásánál szükséges lenne tudnunk, hogy mennyi annak a maximális áramfelvétele. Az eszköz 110V-os feszültséget igényel és 22W teljesítményű. Mennyi lesz az áramfelvétel?",
+    "answers": {
+      "a": "1 A",
+      "b": "1 mA",
+      "c": "200 mA",
+      "d": "100 μA"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "I = P / U = 22W / 110V = 0.2A = 200 mA."
+      }
+    ],
+    "id": 1
+  },
+  {
+    "question": "Igaz-e a következő állítás? A feszültségmérőt a fogyasztóval sorosan kell bekötni az áramkörbe.",
+    "answers": {
+      "a": "A fenti állítás minden esetben hamis.",
+      "b": "A fenti állítás minden esetben igaz.",
+      "c": "A fenti állítás bizonyos esetekben hamis.",
+      "d": "A fenti állítás bizonyos esetekben igaz.",
+      "e": "A rendelkezésre álló adatok alapján nem eldönthető."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A feszültségmérőt mindig párhuzamosan kell kötni, soha nem sorosan."
+      }
+    ],
+    "id": 2
+  },
+  {
+    "question": "Melyik alkatrész szolgál egy áramkörben az elektromos energia tárolására?",
+    "answers": {
+      "a": "tranzisztor",
+      "b": "kondenzátor",
+      "c": "tekercs",
+      "d": "dióda"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A kondenzátor elektromos töltést és energiát tárol."
+      }
+    ],
+    "id": 3
+  },
+  {
+    "question": "Milyen funkciót lát el az ellenállás egy áramkörben?",
+    "answers": {
+      "a": "Stabilizálja a feszültséget.",
+      "b": "Egyen irányítja az áramot.",
+      "c": "Tárolja az elektromos töltést.",
+      "d": "Védelmet nyújt a túlfeszültség ellen.",
+      "e": "Csökkenti az áram erősségét."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "Az ellenállás az áram nagyságát korlátozza Ohm törvénye alapján."
+      }
+    ],
+    "id": 4
+  },
+  {
+    "question": "Linus az operációs rendszerét melyik CPU-ra / gépcsaládra készítette el?",
+    "answers": {
+      "a": "i286",
+      "b": "i386",
+      "c": "Alpha",
+      "d": "Sparc",
+      "e": "AMD"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A Linux eredetileg az Intel i386 architektúrára készült."
+      }
+    ],
+    "id": 5
+  },
+  {
+    "question": "Melyik ma is létező és aktívan fejlődő operációs rendszerre hasonlít leginkább a Linux?",
+    "answers": {
+      "a": "Android",
+      "b": "Linux",
+      "c": "MacOS",
+      "d": "Unix",
+      "e": "Windows"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A Linux Unix-szerű rendszer, POSIX kompatibilis."
+      }
+    ],
+    "id": 6
+  },
+  {
+    "question": "Melyik operációs rendszert vette alapul Torvalds a Linux operációs rendszer kifejlesztéséhez?",
+    "answers": {
+      "a": "iOS",
+      "b": "IOS",
+      "c": "MINIX",
+      "d": "Unix",
+      "e": "Windows"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Linux fejlesztésekor Torvalds a MINIX rendszerből indult ki."
+      }
+    ],
+    "id": 7
+  },
+  {
+    "question": "Torvalds operációs rendszere esetében melyik komponens felel a hardware elemek vezérléséért?",
+    "answers": {
+      "a": "Kernel",
+      "b": "GUI",
+      "c": "CLI",
+      "d": "Shell",
+      "e": "BASH"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A kernel kezeli a hardvert és az erőforrásokat."
+      }
+    ],
+    "id": 8
+  },
+  {
+    "question": "Egy 32 bites architektúra esetén mekkora a legnagyobb megcímezhető memória mérete?",
+    "answers": {
+      "a": "2 GB",
+      "b": "4 GB",
+      "c": "8 GB",
+      "d": "32 GB",
+      "e": "4 MB"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A 32 bit 2^32 címet jelent, ami 4 GB memóriát fed le."
+      }
+    ],
+    "id": 9
+  },
+  {
+    "question": "Hogy nevezzük a grafikai számításokra kifejlesztett műveletvégző egységet?",
+    "answers": {
+      "a": "Core",
+      "b": "CPU",
+      "c": "GPU",
+      "d": "Socket",
+      "e": "VRAM"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A GPU (Graphics Processing Unit) végzi a grafikai számításokat."
+      }
+    ],
+    "id": 10
+  },
+  {
+    "question": "Mely típusú csatlakozó nem alkalmas videójel átvitelére?",
+    "answers": {
+      "a": "BNC",
+      "b": "DVI",
+      "c": "HDMI",
+      "d": "PS/2",
+      "e": "RCA"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A PS/2 kizárólag billentyűzet és egér csatlakoztatására szolgál."
+      }
+    ],
+    "id": 11
+  },
+  {
+    "question": "Mit jelent a partícionálás egy SSD meghajtó esetében?",
+    "answers": {
+      "a": "Különálló logikai tárolóegységet hozunk létre.",
+      "b": "Különálló fizikai tárolóegységet hozunk létre.",
+      "c": "Új szilárdtest tárolókat alakítunk ki.",
+      "d": "Az SSD fizikai szektorainak manuális átrendezése.",
+      "e": "Az SSD esetében nem engedélyezett."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A partícionálás logikai egységekre osztja a meghajtót."
+      }
+    ],
+    "id": 12
+  },
+  {
+    "question": "Mi a célja a preventív karbantartásnak?",
+    "answers": {
+      "a": "Az eszközök teljesítményének növelése.",
+      "b": "Az energiafogyasztás csökkentése.",
+      "c": "Az eszközelemek gyorsabb cseréje.",
+      "d": "A karbantartási költségek növelése.",
+      "e": "A rendszerhiba kockázatának csökkentése."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A preventív karbantartás célja a hibák megelőzése."
+      }
+    ],
+    "id": 13
+  },
+  {
+    "question": "Mi a szerepe a por eltávolításának a számítógépek karbantartásában?",
+    "answers": {
+      "a": "A szoftver teljesítményének javítása.",
+      "b": "Az energiafogyasztás csökkentése.",
+      "c": "A hűtés hatékonyságának fenntartása.",
+      "d": "Az operációs rendszer gyorsítása.",
+      "e": "A számítógép cseréjének elkerülése."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A por eltávolítása javítja a hűtést, így megelőzi a túlmelegedést."
+      }
+    ],
+    "id": 14
+  },
+  {
+    "question": "Minek a rövidítése az IoT?",
+    "answers": {
+      "a": "Internet of Things",
+      "b": "Information of Technology",
+      "c": "Information over Tunnel",
+      "d": "Intelligence of Things",
+      "e": "Internet of Technology"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "IoT = Internet of Things, azaz dolgok internete."
+      }
+    ],
+    "id": 15
+  },
+  {
+    "question": "A TCP/IP modell melyik rétegében működik az Ethernet?",
+    "answers": {
+      "a": "Internet",
+      "b": "Szállítási",
+      "c": "Hozzáférési",
+      "d": "Alkalmazási",
+      "e": "Protokoll"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az Ethernet a hozzáférési (link) rétegben működik."
+      }
+    ],
+    "id": 16
+  },
+  {
+    "question": "Egy 1 Mbps kapcsolat 2 perc alatt hány bitet tud továbbítani?",
+    "answers": {
+      "a": "960000000",
+      "b": "480000000",
+      "c": "180000000",
+      "d": "120000000",
+      "e": "60000000"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "1 Mbps = 1,000,000 bit/s → 120 s alatt 120,000,000 bit."
+      }
+    ],
+    "id": 17
+  },
+  {
+    "question": "Hány bájtos egy IPv6 cím?",
+    "answers": {
+      "a": "128",
+      "b": "48",
+      "c": "32",
+      "d": "16",
+      "e": "4"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az IPv6 cím 128 bites, azaz 16 bájt."
+      }
+    ],
+    "id": 18
+  },
+  {
+    "question": "Hogy nevezzük az olyan hálózatot, ahol nincs szerver-kliens szerepkör?",
+    "answers": {
+      "a": "Point-to-Point",
+      "b": "Point-to-Peer",
+      "c": "Peer-to-Point",
+      "d": "Peer-to-Peer",
+      "e": "Single-to-Single"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A Peer-to-Peer hálózatban minden gép egyenrangú."
+      }
+    ],
+    "id": 19
+  },
+  {
+    "question": "Melyik magánhálózati cím az RFC 1918 szerint?",
+    "answers": {
+      "a": "12.212.100.3",
+      "b": "172.20.100.3",
+      "c": "172.15.100.3",
+      "d": "192.200.100.3",
+      "e": "192.169.100.3"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A 172.16.0.0–172.31.255.255 tartomány privát cím."
+      }
+    ],
+    "id": 20
+  },
+  {
+    "question": "Melyik interface teszi lehetővé egy switch távoli konfigurálását?",
+    "answers": {
+      "a": "AUX",
+      "b": "SVI",
+      "c": "SVN",
+      "d": "VPN",
+      "e": "WAN"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "Az SVI (Switch Virtual Interface) teszi lehetővé a távoli elérést."
+      }
+    ],
+    "id": 21
+  },
+  {
+    "question": "Mi az IP címek kiosztásának leggyakoribb módja nagyvállalati hálózatban?",
+    "answers": {
+      "a": "Egyetlen központi IP cím használata.",
+      "b": "Statikus kézi kiosztás.",
+      "c": "Bluetooth alapú kiosztás.",
+      "d": "Automatikus generálás a végpontokon.",
+      "e": "DHCP szerver általi kiosztás."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A DHCP automatikusan osztja ki az IP címeket."
+      }
+    ],
+    "id": 22
+  },
+  {
+    "question": "Mit csinál a switch, ha a cél MAC cím nincs a táblájában?",
+    "answers": {
+      "a": "Hozzáadja a táblához és továbbítja.",
+      "b": "Eldobja.",
+      "c": "Minden porton kiküldi, kivéve a bejövőt.",
+      "d": "ARP kérést küld.",
+      "e": "Minden porton kiküldi."
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Ismeretlen MAC esetén a switch flood-olja a keretet."
+      }
+    ],
+    "id": 23
+  },
+  {
+    "question": "Melyik megoldás nyújt biztonságos távoli hozzáférést a céges hálózathoz?",
+    "answers": {
+      "a": "VPN használata",
+      "b": "L7-es tűzfal",
+      "c": "MFA használata",
+      "d": "Céges fájlok letöltése",
+      "e": "Privát böngészés"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A VPN titkosított csatornát biztosít a távoli eléréshez."
+      }
+    ],
+    "id": 24
+  },
+  {
+    "question": "Melyik biztonsági eszköz figyeli és riasztja a rendszergazdát támadás esetén?",
+    "answers": {
+      "a": "DHCP",
+      "b": "DNS",
+      "c": "IDS",
+      "d": "SSL",
+      "e": "VPN"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az IDS (Intrusion Detection System) észleli a támadásokat."
+      }
+    ],
+    "id": 25
+  },
+  {
+    "question": "Melyik támadás célja a hálózat túlterhelése?",
+    "answers": {
+      "a": "Adathalászat",
+      "b": "Denial of Service",
+      "c": "Man-in-the-Middle",
+      "d": "Social Engineering",
+      "e": "SQL injection"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A DoS célja a szolgáltatás elérhetetlenné tétele."
+      }
+    ],
+    "id": 26
+  },
+  {
+    "question": "Milyen támadás során érkezik nagyszámú kérés több földrajzi helyről?",
+    "answers": {
+      "a": "DNS mérgezés",
+      "b": "DOS támadás",
+      "c": "DDoS támadás",
+      "d": "Ping of Death",
+      "e": "SYN elárasztás"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A DDoS több gépről indított túlterheléses támadás."
+      }
+    ],
+    "id": 27
+  },
+  {
+    "question": "Melyik felhőszolgáltatás biztosítja a legalacsonyabb szolgáltatási szintet?",
+    "answers": {
+      "a": "IaaS",
+      "b": "MaaS",
+      "c": "PaaS",
+      "d": "RaaS",
+      "e": "SaaS"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Az IaaS csak infrastruktúrát biztosít, a legalacsonyabb szint."
+      }
+    ],
+    "id": 28
+  },
+  {
+    "question": "Hogy nevezzük a virtuális gépeket futtató programokat?",
+    "answers": {
+      "a": "Desktop",
+      "b": "Guest",
+      "c": "Host",
+      "d": "Hypervisor",
+      "e": "Server"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A hypervisor futtatja és kezeli a virtuális gépeket."
+      }
+    ],
+    "id": 29
+  },
+  {
+    "question": "Milyen felhőalapú megoldást választana, ha a lehető legrövidebb idő alatt szeretne internetről elérhető tárhelyhez jutni?",
+    "answers": {
+      "a": "SaaS",
+      "b": "PaaS",
+      "c": "IaaS",
+      "d": "SaaR",
+      "e": "SaaM"
+    },
+    "topic": "IT",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az IaaS szolgáltatások azonnal elérhető virtuális gépeket és tárhelyet biztosítanak, gyors beüzemeléssel."
+      }
+    ],
+    "id": 30
+  },
+  {
+    "question": "Kinek a nevéhez köthető a HTML nyelv alapjainak kidolgozása?",
+    "answers": {
+      "a": "Tim Berners-Lee (CERN)",
+      "b": "Steve Jobs (Apple)",
+      "c": "Bill Gates (Microsoft)",
+      "d": "Larry Page (Google)",
+      "e": "Linus Torvalds (Linux Foundation)"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Tim Berners-Lee fejlesztette ki a HTML első verzióját a CERN-ben."
+      }
+    ],
+    "id": 31
+  },
+  {
+    "question": "Melyik évtizedben született meg a HTML nyelv?",
+    "answers": {
+      "a": "1960-es évek – DARPA, ARPANET",
+      "b": "1970-es évek – internet, TCP/IP",
+      "c": "1980-as évek – PC elterjedése",
+      "d": "1990-es évek – világháló",
+      "e": "2000-es évek – dotcom boom"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A HTML az 1990-es évek elején jelent meg a világháló részeként."
+      }
+    ],
+    "id": 32
+  },
+  {
+    "question": "Melyik böngésző vesztette el a piaci részesedését a böngészőháború végére?",
+    "answers": {
+      "a": "Apple Safari",
+      "b": "Mozilla Firefox",
+      "c": "Netscape Navigator",
+      "d": "Microsoft Edge",
+      "e": "Opera"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Netscape Navigator gyakorlatilag eltűnt az Internet Explorer térnyerése után."
+      }
+    ],
+    "id": 33
+  },
+  {
+    "question": "Mikorra várható a HTML következő nagy kiadása?",
+    "answers": {
+      "a": "Az 5.3 verziót már most is használjuk",
+      "b": "A HTML6 határozatlan időre csúszik",
+      "c": "Az új verzió neve PHTML lesz",
+      "d": "A folyamatosan bővülő szabványnak nem lesz több nagyverziója"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A HTML Living Standard folyamatosan frissül, nincs több nagyverzió."
+      }
+    ],
+    "id": 34
+  },
+  {
+    "question": "Melyik HTML5 szemantikus elem jelöli az oldal fő tartalmát?",
+    "answers": {
+      "a": "<body>",
+      "b": "<main>",
+      "c": "<section class='main'>",
+      "d": "<div id='content'>"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A <main> elem a dokumentum fő tartalmát jelöli."
+      }
+    ],
+    "id": 35
+  },
+  {
+    "question": "Mi a különbség a <b> és a <strong> között?",
+    "answers": {
+      "a": "Korábban volt különbség, ma már nincs",
+      "b": "<b> már nem szabványos",
+      "c": "<strong> szemantikai jelentéssel bír",
+      "d": "<strong> csak olvashatóságot javít",
+      "e": "<strong> vastagabbá teszi a <b>-t"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A <strong> szemantikai hangsúlyt is jelöl, nem csak vizuális formázást."
+      }
+    ],
+    "id": 36
+  },
+  {
+    "question": "Milyen tag jelöli egy táblázat fejléc celláját?",
+    "answers": {
+      "a": "<head>",
+      "b": "<header>",
+      "c": "<thead>",
+      "d": "<th>",
+      "e": "<td>"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A <th> elem jelöli a táblázat fejléc celláit."
+      }
+    ],
+    "id": 37
+  },
+  {
+    "question": "Hogyan hozható létre hivatkozás az oldal 'forrasok' azonosítójú eleméhez?",
+    "answers": {
+      "a": "<link href='#forrasok'>",
+      "b": "<link id='forrasok'>",
+      "c": "<href id='forrasok'>",
+      "d": "<a href='forrasok'>",
+      "e": "<a href='#forrasok'>"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A # jel azonosítóra mutató hivatkozást jelöl."
+      }
+    ],
+    "id": 38
+  },
+  {
+    "question": "Melyik tag ad választási lehetőséget egy <select> elemhez?",
+    "answers": {
+      "a": "<label>",
+      "b": "<choice>",
+      "c": "<option>",
+      "d": "<input>",
+      "e": "<value>"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A <option> elem adható a <select> belsejébe."
+      }
+    ],
+    "id": 39
+  },
+  {
+    "question": "Melyik szelektor színezi pirosra a menüsorban lévő hivatkozásokat?",
+    "answers": {
+      "a": "a:nav",
+      "b": "nav:a",
+      "c": "nav a",
+      "d": "nav.a",
+      "e": "a.nav"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A 'nav a' kiválasztja a nav elemben lévő linkeket."
+      }
+    ],
+    "id": 40
+  },
+  {
+    "question": "Hogyan állíthatjuk be, hogy minden szöveg Verdana betűtípust használjon?",
+    "answers": {
+      "a": "html { font: Verdana; }",
+      "b": "html { text: Verdana; }",
+      "c": "font { family: Verdana; }",
+      "d": "body { font-text: Verdana; }",
+      "e": "body { font-family: Verdana; }"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A helyes CSS tulajdonság: font-family."
+      }
+    ],
+    "id": 41
+  },
+  {
+    "question": "Melyik CSS szelektor választ ki egy div elemet, amely mandatory osztállyal és gdpr azonosítóval rendelkezik?",
+    "answers": {
+      "a": "div.mandatory#gdpr",
+      "b": "div#mandatory.gdpr",
+      "c": "div { .mandatory { #gdpr { … } } }",
+      "d": "div { #mandatory { .gdpr { … } } }",
+      "e": "div class='mandatory' id='gdpr'"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A CSS-ben az elem.osztály#id a helyes sorrend."
+      }
+    ],
+    "id": 42
+  },
+  {
+    "question": "Melyik állítás téves a Bootstrap CDN használatával kapcsolatban?",
+    "answers": {
+      "a": "Csökkenthető a hálózati forgalom a cache miatt",
+      "b": "Alacsonyabb a válaszidő a közeli szerver miatt",
+      "c": "Automatikusan hozzáférhetünk a legfrissebb verzióhoz",
+      "d": "A gyorsítótár javítja a betöltési időt"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A CDN nem garantálja a legfrissebb verziót — verziószámot kell megadni."
+      }
+    ],
+    "id": 43
+  },
+  {
+    "question": "Hogyan állíthatunk be 5 egységnyi guttert Bootstrap 5-ben?",
+    "answers": {
+      "a": "style='gutter: 5px;'",
+      "b": ".gutter { 5em; }",
+      "c": "class='gutter-5'",
+      "d": "class='g-5'"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A Bootstrap 5 gutter osztálya: g-5."
+      }
+    ],
+    "id": 44
+  },
+  {
+    "question": "Mi a szerepe a viewport meta tageknek?",
+    "answers": {
+      "a": "A Bootstrap Grid csak így működik",
+      "b": "Az oldal méretezését szabályozza különböző eszközökön",
+      "c": "Megállapítja az eszköz orientációját",
+      "d": "Jobb keresőmotoros rangsorolást ad",
+      "e": "Automatikusan méretezi a betűket"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A viewport meta tag a reszponzív méretezés alapja."
+      }
+    ],
+    "id": 45
+  },
+  {
+    "question": "Milyen kódot nem írhatunk JavaScriptben?",
+    "answers": {
+      "a": "kliens oldalit",
+      "b": "szerver oldalit",
+      "c": "alacsony szintűt",
+      "d": "magas szintűt",
+      "e": "objektum-orientáltat"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A JavaScript nem alacsony szintű nyelv."
+      }
+    ],
+    "id": 46
+  },
+  {
+    "question": "Mi a neve a weboldal struktúráját reprezentáló programozható modellnek?",
+    "answers": {
+      "a": "AOM",
+      "b": "BOM",
+      "c": "COM",
+      "d": "DOM",
+      "e": "EOM"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A DOM (Document Object Model) reprezentálja a HTML struktúrát."
+      }
+    ],
+    "id": 47
+  },
+  {
+    "question": "Mi az ECMAScript, és miért jelentős az ES6?",
+    "answers": {
+      "a": "A JavaScript szabványa, modern nyelvi elemek kezdete",
+      "b": "A JavaScript őse",
+      "c": "A JavaScript következő verziója 2026-ra",
+      "d": "Egy frontend keretrendszer",
+      "e": "Egy frontend könyvtár"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Az ES6 hozta a modern JS funkciókat: let, const, arrow function, class stb."
+      }
+    ],
+    "id": 48
+  },
+  {
+    "question": "Melyik igaz a JavaScript változók típusosságára?",
+    "answers": {
+      "a": "szigorú és statikus",
+      "b": "gyenge és dinamikus",
+      "c": "típusmentes",
+      "d": "multitípusos",
+      "e": "objektum-orientált"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A JavaScript gyengén és dinamikusan típusos."
+      }
+    ],
+    "id": 49
+  },
+  {
+    "question": "Melyik kulcsszó vezet be olyan változót, ami hoistingolt és újradeklarálható?",
+    "answers": {
+      "a": "let",
+      "b": "var",
+      "c": "const",
+      "d": "mindhárom",
+      "e": "egyik sem"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A var hoistingolt, újradeklarálható és globális hatókörű is lehet."
+      }
+    ],
+    "id": 50
+  },
+  {
+    "question": "Melyik JavaScript metódus ad vissza új tömböt az eredeti módosítása nélkül?",
+    "answers": {
+      "a": "tomb.filter()",
+      "b": "tomb.peek()",
+      "c": "tomb.sort()",
+      "d": "tomb.clone()"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A filter új tömböt ad vissza, az eredetit nem módosítja."
+      }
+    ],
+    "id": 51
+  },
+  {
+    "question": "Melyik metódussal szúrhatunk be új elemet a tömb elejére?",
+    "answers": {
+      "a": "insert(0, érték)",
+      "b": "push(0, érték)",
+      "c": "append(érték)",
+      "d": "unshift(érték)"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az unshift a tömb elejére szúr be elemet."
+      }
+    ],
+    "id": 52
+  },
+  {
+    "question": "Mit ellenőriz ez a regex: ^[1-9][0-9]{2} [0-9]{3} \\d{3}$?",
+    "answers": {
+      "a": "Telefonszámot",
+      "b": "TAJ számot",
+      "c": "Személyiszámot",
+      "d": "Bankszámlaszámot"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A TAJ szám formátuma: 123 456 789."
+      }
+    ],
+    "id": 53
+  },
+  {
+    "question": "Mi lesz egy for...of ciklus eredménye egy objektumon?",
+    "answers": {
+      "a": "Típushiba",
+      "b": "Kulcs-érték párok",
+      "c": "Kulcsok",
+      "d": "Értékek"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Az objektum nem iterálható, for...of hibát dob."
+      }
+    ],
+    "id": 54
+  },
+  {
+    "question": "Mi lesz egy for...in ciklus eredménye egy objektumon?",
+    "answers": {
+      "a": "Undefined értékek",
+      "b": "Kulcs-érték párok",
+      "c": "Kulcsok",
+      "d": "Értékek"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A for...in az objektum kulcsait járja be."
+      }
+    ],
+    "id": 55
+  },
+  {
+    "question": "Hogyan iratkozunk fel a load eseményre?",
+    "answers": {
+      "a": "window.addEventListener('onLoaded', handler)",
+      "b": "window.addEventListener('load', handler)",
+      "c": "window.loaded = handler",
+      "d": "window.isReady = handler"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A load eseményre így iratkozunk fel: addEventListener('load', handler)."
+      }
+    ],
+    "id": 56
+  },
+  {
+    "question": "Mire használjuk a Promise objektumot?",
+    "answers": {
+      "a": "Az aszinkron működés elkerülésére",
+      "b": "Az async kivételeinek kezelésére",
+      "c": "Egy jövőbeni művelet eredményének reprezentálására",
+      "d": "Aszinkron függvény paraméterezésére"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Promise egy jövőbeni értéket reprezentál."
+      }
+    ],
+    "id": 57
+  },
+  {
+    "question": "Melyik függvénnyel kérhetünk adatot egy szervertől?",
+    "answers": {
+      "a": "http(url)",
+      "b": "get(url)",
+      "c": "fetch(url)",
+      "d": "request(url)",
+      "e": "response(url)"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A fetch a modern, szabványos HTTP kérés."
+      }
+    ],
+    "id": 58
+  },
+  {
+    "question": "Milyen felületet használ egy alkalmazás HTTP üzenetek küldésére más szolgáltatások felé?",
+    "answers": {
+      "a": "SSH",
+      "b": "SQL",
+      "c": "CLI",
+      "d": "GUI",
+      "e": "API"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "Az API biztosítja a kommunikációt HTTP-n keresztül."
+      }
+    ],
+    "id": 59
+  },
+  {
+    "question": "Melyik nem tartalomkezelő rendszer (CMS)?",
+    "answers": {
+      "a": "WordPress",
+      "b": "Joomla!",
+      "c": "Drupal",
+      "d": "Ajax",
+      "e": "SquareSpace"
+    },
+    "topic": "Frontend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az Ajax nem CMS, hanem aszinkron kommunikációs technika."
+      }
+    ],
+    "id": 60
+  },
+  {
+    "question": "Melyik eszköz való adatbázisok tervezésének korai szakaszában az objektumok és kapcsolataik vizuális ábrázolására, az implementációs megszorítások nélkül?",
+    "answers": {
+      "a": "Struktogram",
+      "b": "Relációs adatmodell",
+      "c": "Entity Relationship modell",
+      "d": "Gantt-diagram",
+      "e": "Venn-diagram"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az ER modell az objektumok és kapcsolatok vizuális ábrázolására szolgál."
+      }
+    ],
+    "id": 61
+  },
+  {
+    "question": "Az alábbiak közül melyik adatbázis-kezelő rendszer nem használ relációs modellt?",
+    "answers": {
+      "a": "MongoDB",
+      "b": "MariaDB",
+      "c": "MySQL",
+      "d": "PostgreSQL",
+      "e": "SQLite"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A MongoDB dokumentumorientált NoSQL adatbázis."
+      }
+    ],
+    "id": 62
+  },
+  {
+    "question": "Hogyan adható meg egy adatbázis létrehozásakor, hogy a szövegek rendezése a magyar nyelv szabályait kövesse a kis- és nagybetűk mellőzésével?",
+    "answers": {
+      "a": "... CHARSET 'utf8' LANG 'hu' COLLATE 'ci'",
+      "b": "... CHARSET 'utf8' LANG 'hungarian' CI",
+      "c": "... COLLATE 'utf8_hungarian' NOT SENSITIVE",
+      "d": "... COLLATE 'utf8_hungarian_ci'"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A 'ci' case-insensitive rendezést jelent magyar nyelvi szabályokkal."
+      }
+    ],
+    "id": 63
+  },
+  {
+    "question": "Mi a különbség a PRIMARY KEY és a UNIQUE megszorítások között?",
+    "answers": {
+      "a": "Az egyik MySQL megkötés, a másik MS SQL megfelelője",
+      "b": "A PRIMARY KEY nem kell, hogy egyedi legyen",
+      "c": "A PRIMARY KEY nem lehet másik táblában idegen kulcs",
+      "d": "A UNIQUE mezők kitöltése nem kötelező",
+      "e": "A UNIQUE értékek nem kerülnek indexelésre"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A UNIQUE mező lehet NULL, míg a PRIMARY KEY nem lehet NULL."
+      }
+    ],
+    "id": 64
+  },
+  {
+    "question": "Melyik DDL utasítással tudunk egy tábla szerkezetén módosítani?",
+    "answers": {
+      "a": "UPDATE",
+      "b": "ALTER",
+      "c": "MODIFY",
+      "d": "CREATE",
+      "e": "TRUNCAT"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "Az ALTER TABLE módosítja a tábla szerkezetét."
+      }
+    ],
+    "id": 65
+  },
+  {
+    "question": "Melyik adattípus alkalmas nagy mennyiségű szöveg tárolására a legtöbb SQL rendszerben?",
+    "answers": {
+      "a": "BLOB",
+      "b": "CHAR (100000)",
+      "c": "VARCHAR (100000)",
+      "d": "TEXT",
+      "e": "STRING"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A TEXT típus nagy mennyiségű szöveg tárolására alkalmas."
+      }
+    ],
+    "id": 66
+  },
+  {
+    "question": "Mihez nem adhatunk álnevet (alias)?",
+    "answers": {
+      "a": "Egy adatbázisnak",
+      "b": "Egy táblának",
+      "c": "Egy mezőnek",
+      "d": "Egy lekérdezésnek",
+      "e": "Egy számítás eredményének"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Alias adatbázisnévre nem adható."
+      }
+    ],
+    "id": 67
+  },
+  {
+    "question": "Hogyan lehet egy lekérdezett mező értékéhez szöveget hozzáfűzni?",
+    "answers": {
+      "a": "SELECT tavolsag + 'km' FROM meresek",
+      "b": "SELECT '{tavolsag} km' FROM meresek",
+      "c": "SELECT JOIN(tavolsag, 'km') FROM meresek",
+      "d": "SELECT CONCAT(tavolsag, 'km') FROM meresek",
+      "e": "SELECT tavolsag APPEND 'km' FROM meresek"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A CONCAT() függvény fűzi össze a szövegeket SQL-ben."
+      }
+    ],
+    "id": 68
+  },
+  {
+    "question": "Hogyan szűrhetünk a versenyzők között az első és második helyezettekre?",
+    "answers": {
+      "a": "WHERE helyezes = 1 AND helyezes = 2",
+      "b": "WHERE helyezes = 1 AND 2",
+      "c": "WHERE helyezes = 1 OR 2",
+      "d": "WHERE helyezes BETWEEN 0 AND 3",
+      "e": "WHERE helyezes IN (1, 2)"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "Az IN (1,2) adja vissza az 1. és 2. helyezettet."
+      }
+    ],
+    "id": 69
+  },
+  {
+    "question": "Melyik kulcsszó szűri ki egy mező ismétlődő értékeit a lekérdezés eredményéből?",
+    "answers": {
+      "a": "UNIQUE",
+      "b": "DISTINCT",
+      "c": "INDEX",
+      "d": "NO REPEAT",
+      "e": "NO DUPLICATE"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A DISTINCT eltávolítja a duplikált sorokat."
+      }
+    ],
+    "id": 70
+  },
+  {
+    "question": "Milyen kifejezést kell írni a LIKE minta helyére, hogy a 'tesztelő' szóra végződő szakmák jelenjenek meg?",
+    "answers": {
+      "a": ". tesztelő",
+      "b": "_ tesztelő",
+      "c": "%tesztelő",
+      "d": "? tesztelő",
+      "e": "* tesztelő"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A % tetszőleges karakterláncot jelöl SQL LIKE esetén."
+      }
+    ],
+    "id": 71
+  },
+  {
+    "question": "Melyik kifejezés ellenőrzi, hogy egy mező értéke kitöltetlen?",
+    "answers": {
+      "a": "IS EMPTY",
+      "b": "NOT EMPTY",
+      "c": "IS NULL",
+      "d": "NOT NULL",
+      "e": "IS NULL OR EMPTY"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az SQL NULL értéket az IS NULL vizsgálja."
+      }
+    ],
+    "id": 72
+  },
+  {
+    "question": "Csoportosítás után milyen záradékkal tudunk további szűrési feltételeket megadni?",
+    "answers": {
+      "a": "WHERE",
+      "b": "FILTER",
+      "c": "HAVING",
+      "d": "GROUP BY",
+      "e": "ORDER BY"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A HAVING a GROUP BY utáni szűrésre szolgál."
+      }
+    ],
+    "id": 73
+  },
+  {
+    "question": "Melyik záradékkal lehet befolyásolni a megjelenített rekordok számát?",
+    "answers": {
+      "a": "LIMIT",
+      "b": "MAX",
+      "c": "TAKE",
+      "d": "SKIP",
+      "e": "OFFSET"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A LIMIT adja meg a visszaadott sorok számát."
+      }
+    ],
+    "id": 74
+  },
+  {
+    "question": "Melyik SQL JOIN típus választja ki azokat a rekordokat, amelyek mindkét táblában megfelelnek a csatlakozási feltételnek?",
+    "answers": {
+      "a": "FULL JOIN",
+      "b": "LEFT JOIN",
+      "c": "OUTER JOIN",
+      "d": "INNER JOIN",
+      "e": "CROSS JOIN"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az INNER JOIN csak a mindkét táblában illeszkedő sorokat adja vissza."
+      }
+    ],
+    "id": 75
+  },
+  {
+    "question": "Melyik tervezési mintát alkalmazzuk, amikor az alkalmazás felépítését a következő rétegekre osztjuk: Megjelenítés ↔ Vezérlő logika ↔ Adatállapotok?",
+    "answers": {
+      "a": "MVC",
+      "b": "MVVM",
+      "c": "REST",
+      "d": "SOLID",
+      "e": "SPA"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Az MVC három rétegre bontja az alkalmazást."
+      }
+    ],
+    "id": 76
+  },
+  {
+    "question": "Egy rétegelt felépítésű alkalmazásban általában mi a controller feladata?",
+    "answers": {
+      "a": "Az alkalmazás adatainak tárolása",
+      "b": "A felhasználói felület megjelenítése",
+      "c": "Az adatbáziskapcsolat fenntartása",
+      "d": "A felhasználó által kezdeményezett műveletek fogadása és kezelése",
+      "e": "Jogosultságkezelés és naplózás"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A controller kezeli a felhasználói interakciókat és műveleteket."
+      }
+    ],
+    "id": 77
+  },
+  {
+    "question": "Mi nem tartozik a ViewModel feladatai közé?",
+    "answers": {
+      "a": "A megjelenítést egyszerűsíti",
+      "b": "Eseményeket és parancsokat közvetít",
+      "c": "A tesztelhetőséget elősegíti",
+      "d": "Egyetlen osztályba olvasztja a View és a Modell szerepeit"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A ViewModel nem olvasztja össze a View és Model rétegeket."
+      }
+    ],
+    "id": 78
+  },
+  {
+    "question": "Az alábbiak közül melyik nem backend fejlesztéséhez használt csomagkezelő?",
+    "answers": {
+      "a": "Npm",
+      "b": "Composer",
+      "c": "NuGet",
+      "d": "jQuery",
+      "e": "Gradle"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A jQuery egy JavaScript könyvtár, nem csomagkezelő."
+      }
+    ],
+    "id": 79
+  },
+  {
+    "question": "Melyik nem egy HTTP kéréstípus?",
+    "answers": {
+      "a": "GET",
+      "b": "POST",
+      "c": "PUT",
+      "d": "UPDATE",
+      "e": "DELETE"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az UPDATE nem HTTP metódus."
+      }
+    ],
+    "id": 80
+  },
+  {
+    "question": "Melyik nem egy HTTP válaszkód?",
+    "answers": {
+      "a": "604 Index Out of Range",
+      "b": "502 Bad Gateway",
+      "c": "418 I'm a teapot",
+      "d": "307 Temporary Redirect",
+      "e": "200 OK"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A 604 nem létező HTTP státuszkód."
+      }
+    ],
+    "id": 81
+  },
+  {
+    "question": "Mit nem tartalmaznak egy HTTP kérés fejléc információi?",
+    "answers": {
+      "a": "A kliensalkalmazás adatait",
+      "b": "A preferált nyelveket",
+      "c": "A kérés törzsének formátumát",
+      "d": "A HTTP metódust és az URL-t",
+      "e": "A szervernek küldött cookie-kat"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A metódus és URL a request start line része, nem a headeré."
+      }
+    ],
+    "id": 82
+  },
+  {
+    "question": "Melyik fogalom nem tartozik a CRUD műveletek közé?",
+    "answers": {
+      "a": "Adatok létrehozása",
+      "b": "Adatok ellenőrzése",
+      "c": "Adatok megtekintése",
+      "d": "Adatok módosítása",
+      "e": "Adatok eltávolítása"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A CRUD műveletek: Create, Read, Update, Delete — az ellenőrzés nem része."
+      }
+    ],
+    "id": 83
+  },
+  {
+    "question": "Hogyan tárolja a REST kialakítású szerver a korábbi kérések állapotát?",
+    "answers": {
+      "a": "Cookie fájlokban",
+      "b": "Session segítségével",
+      "c": "Socket használatával",
+      "d": "Sehogyan, nem tárolja ezeket"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A REST stateless, nem tárol állapotot."
+      }
+    ],
+    "id": 84
+  },
+  {
+    "question": "Melyik a javasolt URL felépítés egy RESTful felület tervezésekor?",
+    "answers": {
+      "a": "/getEredmeny/2025/getVersenyzo/1",
+      "b": "/eredmeny/2025/versenyzo/1",
+      "c": "/eredmeny/?ev=2025&id=1",
+      "d": "/getVersenyzoEredmeny?ev=2025&id=1"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A REST erőforrás-alapú URL-eket használ, nem metódusneveket."
+      }
+    ],
+    "id": 85
+  },
+  {
+    "question": "Melyik a legelterjedtebb leíró formátum webszolgáltatások között?",
+    "answers": {
+      "a": "Markdown",
+      "b": "XHTML",
+      "c": "XAML",
+      "d": "JSON",
+      "e": "CSV"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A JSON könnyen olvasható és mélyen strukturált adatokat kezel."
+      }
+    ],
+    "id": 86
+  },
+  {
+    "question": "Az ORM egy réteget képez az objektumorientált program és a relációs adatbázis között, amivel hatékonyabbá válthat a fejlesztés. Melyik nem tartozik az előnyei közé?",
+    "answers": {
+      "a": "Elfedi az adatbázisok közti különbségeket",
+      "b": "A táblákat osztályokká képezi le",
+      "c": "Kezeli az 1:1, 1:N, N:N kapcsolatokat",
+      "d": "SQL utasítások kiválthatók objektumműveletekkel",
+      "e": "Garantálja a bonyolult lekérdezések optimális futtatását"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "Az ORM nem garantál optimális lekérdezést."
+      }
+    ],
+    "id": 87
+  },
+  {
+    "question": "Melyik nem egy ORM keretrendszer?",
+    "answers": {
+      "a": "Entity Framework",
+      "b": "Java Persistence API",
+      "c": "Postman",
+      "d": "Eloquent",
+      "e": "Sequelize"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Postman API tesztelő eszköz, nem ORM."
+      }
+    ],
+    "id": 88
+  },
+  {
+    "question": "Hogyan nevezzük a technikát, amikor egy osztály függőségeit a konstruktoron keresztül adjuk át? Például: public FelhasználóKezelő(IDatabase context) { }",
+    "answers": {
+      "a": "Dependency Injection",
+      "b": "SQL Injection",
+      "c": "SQL Separation",
+      "d": "Interface Implementation",
+      "e": "Interface Inversion"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A Dependency Injection lényege, hogy a szükséges függőségeket kívülről adjuk át, például konstruktoron keresztül."
+      }
+    ],
+    "id": 89
+  },
+  {
+    "question": "Mi az az eszköz, ami automatikusan biztosítja egy objektum függőségeit, amikor arra szükség van? Például: IDataBase context = Services.Resolve<IDataBase>();",
+    "answers": {
+      "a": "Singleton",
+      "b": "SQL Injector",
+      "c": "Factory Pattern",
+      "d": "IoC Container"
+    },
+    "topic": "Backend",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az IoC Container felelős a függőségek automatikus feloldásáért és példányosításáért."
+      }
+    ],
+    "id": 90
+  },
+  {
+    "question": "A Git alkotója az elnevezést a brit szlengből kölcsönözte. Önironikus utalásnak szánta saját magára, mint csökönyös, rossz modorú emberre. Ki volt ő és milyen forráskód hatékonyabb kezelésére dolgozta ki?",
+    "answers": {
+      "a": "Steve Jobs (Apple iOS)",
+      "b": "Bill Gates (Microsoft Windows)",
+      "c": "Linus Torvalds (Linux kernel)",
+      "d": "Mark Zuckerberg (Facebook)"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Gitet Linus Torvalds hozta létre a Linux kernel forráskódjának hatékonyabb kezelésére."
+      }
+    ],
+    "id": 91
+  },
+  {
+    "question": "Hogyan nevezzük azt a felépítést, amiben minden fejlesztő rendelkezik a projekt teljes állapotával, de egy központi szolgáltatón keresztül szinkronizálni is tudják a változásokat?",
+    "answers": {
+      "a": "elosztott rendszer",
+      "b": "centralizált rendszer",
+      "c": "decentralizált rendszer",
+      "d": "peer-to-peer rendszer"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Git decentralizált rendszer, minden fejlesztő teljes másolattal rendelkezik."
+      }
+    ],
+    "id": 92
+  },
+  {
+    "question": "„Commit” készítéséhez milyen adatok beállítása kötelező?",
+    "answers": {
+      "a": "Username és Password",
+      "b": "Username és Email",
+      "c": "Personal Access Token",
+      "d": "GitHub Account"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A Git commitokhoz a felhasználónév és email cím kötelező, ezek kerülnek a commit metaadataiba."
+      }
+    ],
+    "id": 93
+  },
+  {
+    "question": "A fájlok fizikai tárolása szerint egy Git „repository” milyen két típusú lehet?",
+    "answers": {
+      "a": "main / branch",
+      "b": "public / private",
+      "c": "local / remote",
+      "d": "staged / unstaged",
+      "e": "tracked / untracked"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A Git repository lehet helyi (local) vagy távoli (remote)."
+      }
+    ],
+    "id": 94
+  },
+  {
+    "question": "Mivel azonosítja a Git rendszere a projekt egy adott pillanatban vett állapotát?",
+    "answers": {
+      "a": "Timestamp",
+      "b": "GUID",
+      "c": "URI",
+      "d": "URL",
+      "e": "Hash"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A Git minden commitot egyedi SHA-1 hash értékkel azonosít."
+      }
+    ],
+    "id": 95
+  },
+  {
+    "question": "Melyik utasítással tölthetők fel a helyi adattár bejegyzései egy távoli szolgáltatóhoz?",
+    "answers": {
+      "a": "update",
+      "b": "refresh",
+      "c": "upload",
+      "d": "push",
+      "e": "pull"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A 'git push' tölti fel a helyi commitokat a távoli repositoryba."
+      }
+    ],
+    "id": 96
+  },
+  {
+    "question": "Lehetséges-e klónozni egy idegen fejlesztő GitHubon található publikus projektjét?",
+    "answers": {
+      "a": "Nem, de a fájlokat le lehet tölteni.",
+      "b": "Igen, de csak ha meghívott kollaborációra.",
+      "c": "Igen, ha van saját GitHub fiókunk.",
+      "d": "Megkötések nélkül van rá lehetőség."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A publikus repositoryk szabadon klónozhatók GitHubon."
+      }
+    ],
+    "id": 97
+  },
+  {
+    "question": "Mi a „branch” szerepe a fejlesztési folyamatban?",
+    "answers": {
+      "a": "Nem tudnak konfliktusok kialakulni a verziók között.",
+      "b": "Elősegíti a párhuzamos fejlesztést és a csapatmunkát.",
+      "c": "A fejlesztők közös verzión dolgozhatnak egy időben.",
+      "d": "Lehetővé teszi egy-egy fejlesztőnek az offline munkát."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A branch-ek lehetővé teszik a párhuzamos fejlesztést és az elkülönített munkavégzést."
+      }
+    ],
+    "id": 98
+  },
+  {
+    "question": "Hogyan nevezzük az eltérő ágak egyesítését, mindkét ág teljes történetének megtartásával?",
+    "answers": {
+      "a": "checkout",
+      "b": "merge",
+      "c": "sync",
+      "d": "join"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A merge egyesíti az ágakat, megtartva mindkét ág történetét."
+      }
+    ],
+    "id": 99
+  },
+  {
+    "question": "Mi a célja GitHub platformon egy „pull request” küldésének?",
+    "answers": {
+      "a": "A jogosultságok ellenőrzése változások letöltése nélkül.",
+      "b": "A fejlesztőket szólíthatjuk fel a kódjuk feltöltésére.",
+      "c": "A fejlesztőket szólíthatjuk fel az új verzió letöltésére.",
+      "d": "A repository tulajdonosa küldhet módosítási kérést fejlesztőknek.",
+      "e": "A repository tulajdonosának küldhetünk módosítási javaslatot."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "A pull request célja, hogy módosítási javaslatot küldjünk a repository tulajdonosának."
+      }
+    ],
+    "id": 100
+  },
+  {
+    "question": "Melyik az alábbiak közül a projektmenedzsment három legfontosabb eleme?",
+    "answers": {
+      "a": "Idő - Költség - Terjedelem",
+      "b": "Idő - Költség - Minőség",
+      "c": "Kockázat - Kommunikáció - Motiváció",
+      "d": "Képzés - Kommunikáció - Költség",
+      "e": "Idő - Minőség - Erőforrás"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A projektmenedzsment klasszikus háromszöge: idő, költség és terjedelem."
+      }
+    ],
+    "id": 101
+  },
+  {
+    "question": "Melyik nem egy projekt jellemzője?",
+    "answers": {
+      "a": "célhoz kötött",
+      "b": "komplex",
+      "c": "automatikus",
+      "d": "tervezett",
+      "e": "változó"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A projekt nem automatikus folyamat, hanem emberi irányítást igényel."
+      }
+    ],
+    "id": 102
+  },
+  {
+    "question": "Mi a projekt életciklusának második szakasza?",
+    "answers": {
+      "a": "Végrehajtás",
+      "b": "Ellenőrzés",
+      "c": "Tervezés",
+      "d": "Lezárás",
+      "e": "Indítás"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A projekt életciklusa: Indítás → Tervezés → Végrehajtás → Ellenőrzés → Lezárás."
+      }
+    ],
+    "id": 103
+  },
+  {
+    "question": "Projektmenedzsment során milyen diagramot használunk a tevékenységek időbeli tervezésére?",
+    "answers": {
+      "a": "Oszlop diagram",
+      "b": "Gantt diagram",
+      "c": "Sávos diagram",
+      "d": "Torta diagram",
+      "e": "Idő diagram"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A Gantt diagram a projektfeladatok időbeli ütemezését ábrázolja."
+      }
+    ],
+    "id": 104
+  },
+  {
+    "question": "Melyik eszköz használható egy Kanban tábla egyszerű kezelésére és vizuális megjelenítésére?",
+    "answers": {
+      "a": "Jira",
+      "b": "Figma",
+      "c": "Teams",
+      "d": "Trello",
+      "e": "GitHub"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A Trello egy könnyen használható, Kanban-alapú feladatkezelő eszköz."
+      }
+    ],
+    "id": 105
+  },
+  {
+    "question": "Mit érdemes választani, mint megvalósítandó teszt cél?",
+    "answers": {
+      "a": "A rendszer már készítés közben is teljesen hibamentes legyen.",
+      "b": "A rendszer az éles indításkor teljesen hibamentes legyen.",
+      "c": "Növeljük a megbízhatóságot, csökkentsük a kockázatot.",
+      "d": "Ne legyenek teszteletlen bemenetek.",
+      "e": "Ne legyenek teszteletlen kimenetek."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A tesztelés célja a megbízhatóság növelése és a kockázatok csökkentése, nem a teljes hibamentesség."
+      }
+    ],
+    "id": 106
+  },
+  {
+    "question": "Milyen okból mondhatjuk azt, hogy egy teszt „elkopott”?",
+    "answers": {
+      "a": "Nem fut automatikusan, például elavult a keretrendszer.",
+      "b": "Az eredeti célja már nem felel meg az aktuális kódbázisnak.",
+      "c": "Nem dokumentálták megfelelően, idővel nem érthető, mit vizsgál.",
+      "d": "A régóta nem futtatott teszteket ignorálja a keretrendszer."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A teszt akkor „kopik el”, ha már nem illeszkedik a megváltozott kódbázishoz."
+      }
+    ],
+    "id": 107
+  },
+  {
+    "question": "Miért fontos felismerni a hibafürtök jelenségét?",
+    "answers": {
+      "a": "Ezek azok a területek, ahol az automatikus tesztelés nem hatékony.",
+      "b": "Egy adott modul hibái lokalizáltak maradnak, és nem terjednek tovább.",
+      "c": "A hibák gyakran ugyanazon a területen halmozódnak.",
+      "d": "A sok egységteszt magától értetődően több hibát mutat ki."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A hibák gyakran egy adott modulban vagy funkcióban koncentrálódnak, ezért érdemes ezeket a területeket kiemelten vizsgálni."
+      }
+    ],
+    "id": 108
+  },
+  {
+    "question": "Miért állítják azt, hogy kimerítő teszt a valóságban nem lehetséges?",
+    "answers": {
+      "a": "Túl sok idő és erőforrás lenne az összes esetet lefedni.",
+      "b": "A tesztelési eszközök képtelenek minden hibát feltárni.",
+      "c": "A tesztkészletek nem frissülnek elég gyorsan a kód változásaihoz.",
+      "d": "A tesztelés dokumentációjában is bármikor előfordulhat hiba."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A bemenetek és állapotok száma gyakorlatilag végtelen, ezért lehetetlen mindent letesztelni."
+      }
+    ],
+    "id": 109
+  },
+  {
+    "question": "Melyik tervezési modell nem tartalmazza egyáltalán a tesztelést, mint a szoftverfejlesztés életciklusának egy tevékenységét?",
+    "answers": {
+      "a": "szekvenciális modellek (pl. V-modell)",
+      "b": "iteratív modellek (pl. Prototípus)",
+      "c": "inkrementális modellek (pl. Scrum)",
+      "d": "a fentiek közül egyik sem tartalmazza",
+      "e": "a fentiek közül mindegyik tartalmazza"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "e",
+        "explanation": "Minden felsorolt modell tartalmaz valamilyen formában tesztelést."
+      }
+    ],
+    "id": 110
+  },
+  {
+    "question": "Az agilis módszertanok és a DevOps elterjedésével vált egyre inkább elterjedté a „shift-left” megközelítés. Mire helyezi ez a hangsúlyt?",
+    "answers": {
+      "a": "A korai tesztelés kerülendő, mert lassítja a fejlesztők munkáját.",
+      "b": "A hibák korai felismerését és megelőzését helyezi előtérbe.",
+      "c": "Fejlesztők helyett dedikált tesztelők végzik az ellenőrzését.",
+      "d": "Dedikált tesztelők helyett maguk fejlesztők végzik a tesztelést.",
+      "e": "A tesztelést a megrendelő bevonásával kell végezni."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A shift-left lényege, hogy a hibákat minél korábban felismerjük és megelőzzük."
+      }
+    ],
+    "id": 111
+  },
+  {
+    "question": "Mit nevezünk „statikus” tesztelésnek? A kód tesztelését...",
+    "answers": {
+      "a": "adatbázis-kapcsolat nélkül",
+      "b": "megjelenítési réteg nélkül",
+      "c": "a kód futtatása nélkül",
+      "d": "fordítási környezet nélkül",
+      "e": "szintaktikai elemzés nélkül"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "A statikus tesztelés futtatás nélkül vizsgálja a kódot (pl. kódelemzés, review)."
+      }
+    ],
+    "id": 112
+  },
+  {
+    "question": "Mit tesztelünk „egységtesztek” során?",
+    "answers": {
+      "a": "A teljes alkalmazást egyetlen osztatlan egységként kezelve.",
+      "b": "A legnagyobb egységeket elkülönítve (View, Logic, Model, stb.).",
+      "c": "Az eltérő modulegységek együttműködését.",
+      "d": "Osztályok függvényeit és metódusait izoláltan.",
+      "e": "Osztályok függőségeit."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Az egységtesztek izoláltan vizsgálják a metódusokat és függvényeket."
+      }
+    ],
+    "id": 113
+  },
+  {
+    "question": "Mit vizsgálunk „integrációs” tesztek során?",
+    "answers": {
+      "a": "Egy függvény minden bemenetre helyes eredmény ad.",
+      "b": "Egy osztály megvalósítja az összes elvárt funkcióját.",
+      "c": "Egy komponens helyesen működik más rendszerelemekkel.",
+      "d": "Az alkalmazás teljesíti a felhasználói igényeket."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "c",
+        "explanation": "Az integrációs tesztek a komponensek együttműködését vizsgálják."
+      }
+    ],
+    "id": 114
+  },
+  {
+    "question": "Mire utal a tesztpiramisban a 10%-20%-70%-os „ökölszabály”?",
+    "answers": {
+      "a": "A csapat összetételére (menedzser, tesztelő, fejlesztő)",
+      "b": "Az időráfordításra (dokumentáció, tesztelés, fejlesztés)",
+      "c": "Az időbeli ráfordításra (tervezés, tesztelés, implementáció)",
+      "d": "A teszttípusok arányára (rendszer, integrációs, egységteszt)"
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A tesztpiramis szerint a legtöbb teszt egységteszt, kevesebb integrációs, és még kevesebb rendszer teszt."
+      }
+    ],
+    "id": 115
+  },
+  {
+    "question": "Igaz-e a kijelentés, hogy a manuális tesztelést teljesen ki kell iktatni a modern szoftverfejlesztés folyamatából?",
+    "answers": {
+      "a": "Igen, mert az automatizálás hatékonyabb és pontosabb.",
+      "b": "Igen, mert csak emberi hibákat eredményez, így nincs valódi értéke.",
+      "c": "Nem, de kizárólag kis projektek esetében van helye manuális tesztelésnek.",
+      "d": "Nem, például a felhasználói élmény vizsgálatánál elengedhetetlen.",
+      "e": "Nem, a manuális teszt a kreatív hibakeresési módszerek alapja."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "A manuális tesztelés bizonyos területeken, például UX vizsgálatnál nélkülözhetetlen."
+      }
+    ],
+    "id": 116
+  },
+  {
+    "question": "Mire utal az „AAA” minta?",
+    "answers": {
+      "a": "Három lépésre osztott tesztmegközelítésre.",
+      "b": "A tesztkörnyezet inicializálásának, futtatásának és lezárásának mintájára.",
+      "c": "A kiemelkedően magas megbízhatóságú tesztelésre.",
+      "d": "A játékfejlesztésben használt módszertanokra."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "Az AAA minta: Arrange – Act – Assert, azaz előkészítés, végrehajtás, ellenőrzés."
+      }
+    ],
+    "id": 117
+  },
+  {
+    "question": "Mikor hasznos az @Before vagy [SetUp] annotációk használata egy teszteseteket megelőző metódusnál?",
+    "answers": {
+      "a": "Minden tesztesetnek azonos kiindulási állapotra van szüksége.",
+      "b": "Minden tesztesetnek egyetlen közösen használat állapotra van szüksége.",
+      "c": "Amikor a tesztkörnyezet egyedi konfigurációt igényel.",
+      "d": "Amikor a tesztesetek egyedi paraméterezését igényelnek."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "a",
+        "explanation": "A SetUp metódus akkor hasznos, ha minden teszt ugyanabból a kiindulási állapotból indul."
+      }
+    ],
+    "id": 118
+  },
+  {
+    "question": "Mit jelent a TDD (Test-Driven Development) megközelítés?",
+    "answers": {
+      "a": "Szervezési irányelv. A csapatstruktúrában a tesztelő kap kiemelt hangsúlyt.",
+      "b": "Fejlesztési módszertan. Előbb írjuk meg a teszteket, csak utána a kódot.",
+      "c": "Tesztelési stratégia. Kizárólag automatikus teszteket használunk.",
+      "d": "Fejlesztési filozófia. A kódot a tesztek működéséhez igazítjuk."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "b",
+        "explanation": "A TDD lényege: először tesztet írunk, majd a tesztnek megfelelő kódot."
+      }
+    ],
+    "id": 119
+  },
+  {
+    "question": "Melyik helyzetben hasznos a valós objektumokat helyettesítő „Mock”, „Fake” vagy „Stub” technikák alkalmazása?",
+    "answers": {
+      "a": "Egy API válasz idejét teszteljük, a valódi szolgáltatás elérése nélkül.",
+      "b": "Az adatbázis skálázhatóságát teszteljük valós környezetben.",
+      "c": "Egy rendszer teljesítményét teszteljük szimulált forgalommal.",
+      "d": "Egy külső erőforrást nem kívánunk a tesztelés során elérni."
+    },
+    "topic": "Software development",
+    "correct": [
+      {
+        "answer": "d",
+        "explanation": "Mock/Fake/Stub akkor hasznos, ha a valódi külső erőforrás nem érhető el vagy nem célszerű használni."
+      }
+    ],
+    "id": 120
+  }
+]
